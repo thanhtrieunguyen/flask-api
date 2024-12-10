@@ -5,10 +5,10 @@ def connect_to_db():
     """Hàm tạo kết nối đến cơ sở dữ liệu."""
     try:
         connection = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='',
-            database='website_nsports_backup'
+            host='buztqrtn5vcp8gsp39q9-mysql.services.clever-cloud.com',
+            user='ud1r8dibq3jwwn5b',
+            password='iTwj0JLwgfuUAJzwhia0',
+            database='buztqrtn5vcp8gsp39q9'
         )
         return connection
     except mysql.connector.Error as err:
